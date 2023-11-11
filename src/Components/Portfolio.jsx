@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/pixel2.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Integración de Azure con Motor de Juegos",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Proyecto colaborativo para integrar servicios de Azure con un motor de juegos, mejorando el backend de un juego multijugador.",
+    url: "URL_del_proyecto",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Desarrollo de Juego Educativo para Principiantes",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Contribución en el diseño y desarrollo de un videojuego educativo, utilizando principios de diseño de juegos y programación básica.",
+    url: "URL_del_proyecto",
   },
   {
-    title: "My Resume Site",
+    title: "Mi Juego Personal - Portafolio Interactivo",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Desarrollado como parte de un taller de creación de videojuegos. Un juego interactivo que sirve como mi portafolio digital, mostrando mi experiencia y habilidades de diseño.",
+    url: "URL_del_proyecto",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Tutorial de Creación de Niveles en Unity",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Serie de videos educativos explicando el proceso de diseño y desarrollo de niveles en Unity, destacando las mejores prácticas y herramientas creativas.",
+    url: "URL_del_proyecto",
   },
 ];
 

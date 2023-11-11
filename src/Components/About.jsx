@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/pixel.png";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,28 +24,32 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a UI/UX student at Barnett Technical University with a focus on video game development. I enjoy crafting unique and intuitive user interfaces for games, combining simplicity with creativity.";
 
 /**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
+ * List of skills or technologies you work on, are learning,
+ * passionate about, or enjoy, with a focus on video game development.
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Game Interface Design", // Adapted from Web design
+  "Player Experience Design", // Adapted from User experience
+  "Accessible Game Design", // Adapted from Inclusive design
+  "Gamer Focus Group Testing", // Adapted from Focus group testing
+  "Mobile Game Interfaces", // Adapted from Mobile user interfaces
+  "Game Graphics Design", // Adapted from Graphic design
+  "3D Modeling and Animation",
+  "Level and World Design",
+  "Game Mechanics Development",
+  "Cross-Platform UI/UX Design"
 ];
 
 /**
  * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
+ * how you best work, or even a quote. This part is particularly important
+ * for expressing your unique approach to game development.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about creating immersive and engaging game experiences through innovative UI/UX design. My journey in game development is driven by a desire to blend artistic design with functional gameplay, making each interaction meaningful and accessible to a diverse range of players.";
 
 const About = () => {
   return (
